@@ -11,9 +11,11 @@ This report consists of the following analysis:
 First, we take lending data and create labels set into two classes - 0 (healthy loan) and 1 (high-risk loan). You will notice credit risk is imbalanced, with 0 (healthy loan) easily outnumbering 1 (high-risk loan). 
 
 75036 of 0 (healthy loan) vs 2500 of 1 (high-risk loan). 
+
   ![Picture1](https://user-images.githubusercontent.com/103230949/178077432-e75d237b-b0eb-4e78-896b-18f6c83e1d91.png)
 
 So, we split the data into training and testing sets. We create a Logistic Regression Model with original data, then we predict a Logistic Regression Model with resampled training data. 
+
  ![Picture2](https://user-images.githubusercontent.com/103230949/178077447-2b9ae835-2949-4c4d-bfb8-bf2499d78ffb.png)
 
 After we achieved balanced data, we can now perform analysis. We were able to get an improved performance with resampled training data to predict high-risk loans. 
@@ -43,6 +45,7 @@ Original Data - Logistic Regression with imbalanced training data.
   - Recall for 0 (healthy loan): 0.99 (99% accurate in predicting healthy loans as healthy)
   - Precision for 1 (high-risk loan): 0.85 (85% accurate in the high-risk loans predictions)
   - Recall for 1 (high-risk loan): 0.91 (91% accurate in predicting high-risk loans as high risk)
+  
 ![Picture3](https://user-images.githubusercontent.com/103230949/178077461-b861d454-3dff-4bc1-a5b6-a5def9166b77.png)
 
 * Machine Learning Model 2:
@@ -51,6 +54,7 @@ Resampled Data - Logistic with balanced training data
   - Recall for 0 (healthy loan): 0.99 (99% accurate in predicting healthy loans as healthy)
   - Precision for 1 (high-risk loan): 0.84 (84% accurate in the high-risk loans prediction)
   - Recall for 1 (high-risk loan): 0.99 (99% accurate in predicting high-risk loans as high risk))
+  
 ![Picture4](https://user-images.githubusercontent.com/103230949/178077470-d37fad4e-5cc4-4a96-ae91-bb5a14b3919f.png)
 
 ## Summary
