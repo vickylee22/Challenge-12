@@ -17,7 +17,7 @@ Open the starter code notebook and then use it to complete the following steps.
 
 2. Create the labels set (```y```) from the “loan_status” column, and then create the features (```X```) DataFrame from the remaining columns.
 
-"""Note""" A value of ```0``` in the “loan_status” column means that the loan is healthy. A value of ```1``` means that the loan has a high risk of defaulting.
+> **Note** A value of ```0``` in the “loan_status” column means that the loan is healthy. A value of ```1``` means that the loan has a high risk of defaulting.
 
 3. Check the balance of the labels variable (```y```) by using the ```value_counts``` function.
 
@@ -32,11 +32,11 @@ Employ your knowledge of logistic regression to complete the following steps:
 
 3. Evaluate the model’s performance by doing the following:
 
-  - Calculate the accuracy score of the model.
+    - Calculate the accuracy score of the model.
 
-  - Generate a confusion matrix.
+    - Generate a confusion matrix.
 
-  - Print the classification report.
+    - Print the classification report.
 
 4. Answer the following question: How well does the logistic regression model predict both the ```0``` (healthy loan) and ```1``` (high-risk loan) labels?
 
@@ -51,11 +51,11 @@ To do so, complete the following steps:
 
 3. Evaluate the model’s performance by doing the following:
 
-  - Calculate the accuracy score of the model.
+    - Calculate the accuracy score of the model.
 
-  - Generate a confusion matrix.
+    - Generate a confusion matrix.
 
-  - Print the classification report.
+    - Print the classification report.
 
 4. Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the ```0``` (healthy loan) and ```1``` (high-risk loan) labels?
 
